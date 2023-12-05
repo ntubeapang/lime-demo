@@ -1,16 +1,14 @@
-# lime-demo
+
 lime-code-in-python
 
-#Importing the necessary libraries
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Loading the dataset using sklearn
 from sklearn.datasets import fetch_california_housing
 housing = fetch_california_housing()
 
-# Displaying relevant information about the data
 print(fetch_california_housing()['DESCR'][200:1420])
 
 # Separating data into feature variable X and target variable y respectively
